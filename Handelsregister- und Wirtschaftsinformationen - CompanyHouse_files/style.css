@@ -1,0 +1,24 @@
+/*
+Theme Name:   UniconAutocomplete
+Description:  Union with autocomplete
+Author:       Jan Żarski
+Author URL:   Write here the author's blog or website url
+Template:     unicon
+Version:      1.0
+Text Domain:  UniconAutocomplete
+*/
+
+/* Write here your own personal stylesheet */
+
+/*Autocomplete */
+#company-search .dropdown { padding-top: 80px; max-height: 1000px; }
+#company-search .dropdown > a { font-weight: 700; display: block; padding: 7px 15px; border-top: 1px solid #eee; background-color: #dde3e4; }
+#company-search .dropdown > a:hover { color: #1eb082; background-color: #dde5ef;}
+#company-search .dropdown > a.city { color: #666; }
+#company-search .dropdown > a span.search-result-icon { margin-right: 10px; vertical-align: middle; display: inline-block; background: url(https://www.companyhouse.de/assets/537254ac87/sprite.svg) no-repeat 0px -580px; width: 18px; height: 18px; }
+#company-search .dropdown > a span.search-result-icon.inactive { vertical-align: middle; display: inline-block; background: url(https://www.companyhouse.de/assets/537254ac87/sprite.svg) no-repeat 0 -667px; width: 18px; height: 18px; }
+#company-search .dropdown > a span.search-result-icon.activePersonSearch { vertical-align: middle; display: inline-block; background: url(https://www.companyhouse.de/assets/537254ac87/sprite.svg) no-repeat 0 -3154px; width: 19px; height: 19px; zoom: 1; }
+#company-search .dropdown > a span.search-result-icon.inactivePersonSearch { vertical-align: middle; display: inline-block; background: url(https://www.companyhouse.de/assets/537254ac87/sprite.svg) no-repeat 0px -3242px; width: 18px; height: 18px; zoom: 1; }
+/* ------------------------------------------------------------------------ */
+/* EOF
+/* ------------------------------------------------------------------------ */
